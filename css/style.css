@@ -1,4 +1,7 @@
+/**/
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 
 body {
     margin: 0;
@@ -7,6 +10,10 @@ body {
     font-weight: 400;
     font-size: 11px;
     line-height: 15px;
+}
+
+body * {
+    box-sizing: border-box;
 }
 
 .wrapper {
@@ -21,6 +28,7 @@ body {
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
     border: 0;
     border-radius: 2px;
+    /* FIX */
     font-family: 'Nunito Sans';
     font-style: italic;
     font-weight: 400;
@@ -28,9 +36,21 @@ body {
     line-height: 15px;
 }
 
-.button-header-paddings {
-    padding: 13px 33px;
+.title {
+    margin: 0;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
 }
+
+/**/
+/*  HEADER  */
+/**/
 
 .header {
     background-color: #131313;
@@ -65,4 +85,60 @@ body {
 .header-phone {
     color: #E3B873;
     text-decoration: underline;
+}
+
+.button-header-paddings {
+    padding: 13px 33px;
+}
+
+/**/
+/*  MAIN  */
+/**/
+
+/*  COVER  */
+
+
+.cover {
+    background-image: url(../images/cover.jpg);
+    height: 707px;
+    position: relative;
+    z-index: 1;
+    padding-top: 194px;
+}
+
+.wrapper-cover {
+    position: relative;
+    z-index: 1;
+}
+
+.shading-layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.cover-title-size {
+    font-size: 40px;
+    line-height: 53px;
+    letter-spacing: normal;
+}
+
+.cover-text {
+    font-size: 22px;
+    line-height: 36px;
+    color: #fff;
+}
+
+.first-button-cover-paddings {
+    padding: 19px 42px;
+}
+
+.second-button-cover {
+    margin-left: 20px;
+    background: none;
+    border: 1px solid #fff;
+    padding: 19px 23px;
 }
