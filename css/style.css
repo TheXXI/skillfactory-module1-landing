@@ -21,6 +21,10 @@ body * {
     margin: 0 auto;
 }
 
+.wrapper-left-padding {
+    padding-left: 42px;
+}
+
 .button {
     text-transform: uppercase;
     background-color: #E3B873;
@@ -68,7 +72,7 @@ body * {
     text-transform: uppercase;
 }
 
-.header-navigation {
+.header-navigation_list {
     display: flex;
     list-style: none;
 }
@@ -142,3 +146,102 @@ body * {
     border: 1px solid #fff;
     padding: 19px 23px;
 }
+
+/* projects */
+
+.projects {
+    padding-top: 107px;
+    background-color: #131313;
+}
+
+.projects-navigation {
+    margin: 0 auto;
+    height: 70px;
+    color: #fff;
+    width: 1171px;
+}
+
+.projects-navigation_list {
+    margin: 0 0 0 492px;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.projects-navigation_item {
+    background: none;
+    border-radius: 0;
+    border: 0;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    margin-left: 60px;
+    
+}
+
+.projects-navigation_item-active {
+    color: #E3B873;
+    padding: 0 2px 6px 2px;
+    margin: 0;
+    border-bottom: 1px solid #E3B873;
+}
+
+.projects-content {
+    margin: 0 auto;
+    width: 1171px;
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.projects-text {
+    margin-top: 34px;
+    max-width: 442px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+    white-space:normal;
+}
+
+.projects-details {
+    margin-top: 42px;
+    display: grid;
+    grid-template-columns: 161px 242px;
+    grid-template-rows: 72px 89px;
+}
+
+.projects-details-subtitle {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+    margin: 0;
+}
+
+.projects-details-text {
+    display: block;
+    margin-top: 9px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.projects-image {
+    align-self: flex-end;
+}
+
