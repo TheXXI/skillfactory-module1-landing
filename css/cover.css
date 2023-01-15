@@ -1,0 +1,44 @@
+.cover {
+    background-image: url(../images/cover.jpg);
+    height: 707px;
+    position: relative;
+    z-index: 1;
+    padding-top: 194px;
+}
+
+.wrapper-cover {
+    position: relative;
+    z-index: 1;
+}
+
+.cover-shading-layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.cover-title-size {
+    font-size: 40px;
+    line-height: 53px;
+    letter-spacing: normal;
+}
+
+.cover-text {
+    font-size: 22px;
+    line-height: 36px;
+    color: #fff;
+}
+
+.first-button-cover-paddings {
+    padding: 19px 42px;
+}
+
+.second-button-cover {
+    margin-left: 20px;
+    background: none;
+    border: 1px solid #fff;
+    padding: 19px 23px;
+}

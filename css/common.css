@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+body {
+    margin: 0;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1256px;
+    margin: 0 auto;
+}
+
+.wrapper-left-padding {
+    padding-left: 42px;
+}
+
+.button {
+    text-transform: uppercase;
+    background-color: #E3B873;
+    color: #fff;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border: 0;
+    border-radius: 2px;
+    /* FIX */
+    font-family: 'Nunito Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.title {
+    margin: 0;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.subtitle {
+    margin: 0;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181818;
+}
+
+.label {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.input {
+    border: 0;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    outline: none;
+    padding: 2px 0 8px 0;
+    margin: 0;
+    width: 231px;
+}
+
+.input::placeholder {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #363636;
+}
+
+.section-icons {
+    margin: 13px 0 31px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.white-text {
+    color: #FFFFFF;
+}
+
+.personal-data-label {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 163.68%;
+    /* or 23px */
+    color: #181818;
+}
+
+.personal-data-real-checkbox {
+    display: none;
+}
+
+.personal-data-visible-checkbox {
+    display: inline-block;
+    vertical-align: sub;
+    position: relative;
+    margin-right: 9px;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    border-radius: 1px;
+}
+
+.personal-data-visible-checkbox::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-image: url(../images/icons/check.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.personal-data-real-checkbox:checked+.personal-data-visible-checkbox::before {
+    opacity: 1;
+}

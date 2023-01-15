@@ -1,0 +1,74 @@
+.control-padding {
+    margin-top: -324px;
+}
+
+.control-icons img:nth-of-type(2) {
+    margin: 0 9px;
+}
+
+.video {
+    margin: 0 auto;
+    background-image: url(../images/video.jpg);
+    height: 434px;
+    width: 817px;
+    position: relative;
+}
+
+.play-image {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video-shading-layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.control-hr {
+    margin: 62px auto 34px auto;
+    height: 1px;
+    width: 55px;
+    border: 1px solid #E3B873;
+    border-radius: 30px;
+}
+
+.control-text {
+    padding: 0;
+    margin: 0 auto;
+    width: 681px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+    color: #363636;
+}
+
+.control-button {
+    font-style: normal;
+    width: 200px;
+    height: 51px;
+}
+
+.control-form {
+    margin-top: 91px;
+    display: flex;
+    justify-content: center;
+}
+
+.control-form div:nth-of-type(2) {
+    margin: 0 49px 0 58px;
+}
+
+.control-presonal-data-block {
+    margin-top: 37px;
+    text-align: center;
+}

@@ -1,0 +1,42 @@
+.header {
+    background-color: #131313;
+}
+
+.wrapper-header {
+    display: flex;
+    height: 83px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #E3B873;
+    text-transform: uppercase;
+}
+
+.header-navigation_list {
+    display: flex;
+    list-style: none;
+}
+
+.header-navigation_item {
+    margin-right: 47px;
+}
+
+.header-navigation_item a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.header-navigation_item-active a {
+    color: #E3B873;
+}
+
+.header-phone {
+    color: #E3B873;
+    text-decoration: underline;
+}
+
+.button-header-paddings {
+    padding: 13px 33px;
+}

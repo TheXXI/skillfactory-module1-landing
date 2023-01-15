@@ -1,0 +1,173 @@
+.request {
+    margin-top: 124px;
+    display: flex;
+}
+
+.request-list-image {
+    background-image: url(../images/request.jpg);
+    height: 645px;
+    width: 703px;
+}
+
+.request-list {
+    width: 379px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 117px 79px 54px 245px;
+}
+
+.request-block {
+    display: flex;
+}
+
+.request-block-number {
+    width: 41.76px;
+    height: 41.76px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.request-block-text {
+    width: 320px;
+    margin-left: 16px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #363636;
+}
+
+.requset-rectangle {
+    position: absolute;
+    background-image: url(../images/icons/rectangle.svg);
+    background-repeat: no-repeat;
+    width: 88px;
+    height: 88px;
+    margin-top: -18px;
+    margin-left: -23px;
+}
+
+.request-column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 131px;
+    align-items: center;
+}
+
+.request-form {
+    width: 506px;
+    height: 508px;
+    background: #131313;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.request-form-title {
+    height: 47px;
+    margin-top: 28px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.request-form-input-block {
+    display: inline-block;
+}
+
+.request-form-input-block:nth-of-type(2) {
+    margin-top: 39px;
+}
+
+.request-form-input-block:nth-of-type(3) {
+    margin: 48px 0;
+}
+
+.request-form-input-block:nth-of-type(4) {
+    margin-bottom: 16px;
+}
+
+.request-label {
+    color: rgba(255, 255, 255, 0.5);
+    height: 16px;
+}
+
+.request-input {
+    background: #131313;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    width: 408px;
+    margin: 7px auto 2px auto;
+}
+
+.request-input::placeholder {
+    color: #ffffff;
+}
+
+.request-form-personal-data-block {
+    width: 408px;
+    height: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.request-form-button-block {
+    width: 408px;
+    text-align: end;
+    margin: 39px 0 27px 0;
+}
+
+.request-form-button {
+    font-size: 13px;
+    line-height: 21px;
+    height: 51px;
+    width: 213px;
+    border-radius: 0;
+}
+
+.request-save {
+    margin-top: 38px;
+    width: 441px;
+    height: 72px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.request-save-piggy-bank {
+    width: 113px;
+    height: 113px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+
+.request-save-text {
+    margin-left: 97px;
+    display: block;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #E3B873;
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+}
