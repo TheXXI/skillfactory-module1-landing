@@ -1,6 +1,6 @@
 .request {
     margin-top: 124px;
-    display: none;
+    display: flex;
 }
 
 .request-list-image {
