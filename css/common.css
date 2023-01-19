@@ -83,6 +83,10 @@ body * {
     width: 231px;
 }
 
+.black-label {
+    color: rgba(255, 255, 255, 0.5);
+}
+
 .input::placeholder {
     font-family: 'Nunito Sans';
     font-style: normal;
@@ -90,6 +94,15 @@ body * {
     font-size: 14px;
     line-height: 23px;
     color: #363636;
+}
+
+.black-input {
+    border-color: rgba(255, 255, 255, 0.15);
+    background-color: #181818;
+}
+
+.black-input::placeholder {
+    color: #fff;
 }
 
 .section-icons {
@@ -103,11 +116,12 @@ body * {
 }
 
 .personal-data-label {
+    display: flex;
+    justify-content: center;
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 163.68%;
     /* or 23px */
     color: #181818;
 }

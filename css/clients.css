@@ -25,6 +25,7 @@
 
 .clients_list {
     display: flex;
+    justify-content: center;
 }
 
 .clients_list_block {

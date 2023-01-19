@@ -1,0 +1,50 @@
+.contacts {
+    display: block;
+    height: 953.89px;
+    background-image: url(../images/contacts-bg.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 52.1px;
+    padding-bottom: 65.93px;
+}
+
+.contacts-shading-layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
+}
+
+.contacts-content {
+    position: relative;
+    z-index: 1;
+}
+
+.contacts-text {
+    display: block;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873;
+    height: 51px;
+    margin-bottom: 26px;
+}
+
+.contacts-icons {
+    margin-bottom: 43.29px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.map {
+    height: 465px;
+    width: 925px;
+    margin: 43.29px auto 0 auto;
+}

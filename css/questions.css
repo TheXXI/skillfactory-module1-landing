@@ -1,0 +1,42 @@
+.questions {
+    margin: 0 auto;
+    width: 883px;
+    background-color: #181818;
+    padding-top: 34.4px;
+}
+
+.subtitle {
+    margin-bottom: 45.8px;
+}
+
+.questions-inputs {
+    display: flex;
+    justify-content: center;
+    gap: 58px;
+}
+
+.questions-big-input {
+    margin: 48.76px auto 46.46px auto;
+    width: 516.82px;
+}
+
+.questions-big-input input {
+    width: 100%;
+}
+
+.questions-button {
+    margin: 50.45px 341.5px 34.4px 341.5px;
+    padding-top: 10px;
+    height: 51px;
+    width: 200px;
+    text-transform: uppercase;
+    background-color: #E3B873;
+    border: 0;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
