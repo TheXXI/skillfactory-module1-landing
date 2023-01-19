@@ -51,6 +51,7 @@ body * {
 
 .subtitle {
     margin: 0;
+    height: 26px;
     font-family: 'Yeseva One';
     font-style: normal;
     font-weight: 400;

@@ -1,0 +1,104 @@
+.clients {
+    margin-top: 69.26px;
+    text-align: center;
+}
+
+.clients-section-icons {
+    margin-bottom: 24.16px;
+}
+
+.clients-icon {
+    margin: 0 8.14px;
+}
+
+.clients-text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #363636;
+    display: inline-block;
+    height: 57px;
+}
+
+.clients_list {
+    display: flex;
+}
+
+.clients_list_block {
+    height: 428px;
+    width: 376px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+}
+
+.client-photo {
+    display: block;
+    margin: 24px 0 0 20px;
+    border-radius: 50%;
+}
+
+.clinet-name {
+    margin: 41px 0 0 23px;
+    height: 42px;
+    width: 178px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #181818;
+}
+
+.clinet-block-text {
+    margin: 22px 60.92px 0 20px;
+    padding: 0;
+    height: 239px;
+    width: 324px;
+    text-align: start;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 180%;
+    /* or 23px */
+    color: #959595;
+}
+
+.clients-block-parameters {
+    display: flex;
+    margin-top: -27px;
+}
+
+.clients-parameters {
+    background-color: #E3B873;
+    display: flex;
+    height: 54px;
+}
+
+.client-parameters-icon {
+    margin: 11px 15.39px 11.65px 17.36px;
+}
+
+.client-parameters-text {
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.clients-parameters:nth-child(1) {
+    padding-right: 16.99px;
+    margin-right: 0.75px;
+}
+
+.clients-parameters:nth-child(2) {
+    padding-right: 24.61px;
+}
