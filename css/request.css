@@ -22,6 +22,7 @@
 .request-block {
     display: flex;
     align-items: center;
+    gap: 16px;
 }
 
 .request-block-number {
@@ -67,7 +68,6 @@
 
 .request-block-text {
     width: 320px;
-    margin-left: 16px;
     font-family: 'Nunito Sans';
     font-style: normal;
     font-weight: 400;
@@ -75,16 +75,6 @@
     line-height: 19px;
     color: #363636;
 }
-
-/*.requset-rectangle {
-    position: absolute;
-    background-image: url(../images/icons/rectangle.svg);
-    background-repeat: no-repeat;
-    width: 88px;
-    height: 88px;
-    margin-top: -18px;
-    margin-left: -23px;
-}*/
 
 .request-column {
     display: flex;

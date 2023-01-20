@@ -1,5 +1,9 @@
 .questions {
+    position: relative;
+    z-index: 1;
     margin: 0 auto;
+    margin-top: -240px;
+    margin-bottom: -240px;
     width: 883px;
     background-color: #181818;
     padding-top: 34.4px;

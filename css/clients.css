@@ -103,3 +103,27 @@
 .clients-parameters:nth-child(2) {
     padding-right: 24.61px;
 }
+
+.clients-bg {
+    margin-top: -76.46px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    opacity: 0.05;
+}
+
+.left-clients-bg {
+    background-image: url(../images/icons/left_clietns_bg.svg);
+    background-repeat: no-repeat; 
+    background-position: right;
+    height: 505.43px;
+    width: 50%;
+}
+
+.right-clients-bg {
+    background-image: url(../images/icons/right_clietns_bg.svg);
+    background-repeat: no-repeat; 
+    background-position: left;
+    height: 505.43px;
+    width: 50%;
+}
