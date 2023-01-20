@@ -76,6 +76,8 @@
 .fantasies-backgroung-image {
     margin-top: 112.53px;
     background-image: url(../images/fantasies-backgroung-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     height: 864px;
     position: relative;
     top: 112.53px
