@@ -1,4 +1,4 @@
-.header {
+.header-footer {
     background-color: #131313;
 }
 
@@ -9,34 +9,41 @@
     justify-content: space-between;
 }
 
+.wrapper-footer {
+    display: flex;
+    height: 133px;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .logo {
     color: #E3B873;
     text-transform: uppercase;
 }
 
-.header-navigation_list {
+.header-footer-navigation_list {
     display: flex;
     list-style: none;
 }
 
-.header-navigation_item {
+.header-footer-navigation_item {
     margin-right: 47px;
 }
 
-.header-navigation_item a {
+.header-footer-navigation_item a {
     color: #FFF;
     text-decoration: none;
 }
 
-.header-navigation_item-active a {
+.header-footer-navigation_item-active a {
     color: #E3B873;
 }
 
-.header-phone {
+.header-footer-phone {
     color: #E3B873;
     text-decoration: underline;
 }
 
-.button-header-paddings {
+.button-header-footer-paddings {
     padding: 13px 33px;
 }
