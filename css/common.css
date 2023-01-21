@@ -126,6 +126,10 @@ body * {
     color: #181818;
 }
 
+.personal-data-label {
+    align-items: flex-end;
+}
+
 .personal-data-real-checkbox {
     display: none;
 }
