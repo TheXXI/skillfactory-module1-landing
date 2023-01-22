@@ -44,6 +44,23 @@
     text-decoration: underline;
 }
 
-.button-header-footer-paddings {
+.button-header-footer {
     padding: 13px 33px;
+}
+
+@media screen and (max-width: 1299px) {
+    .header-footer-navigation_list {
+        display: none;
+    }
+    .button-header-footer {
+        display: none;
+    }
+
+    .wrapper-header {
+        margin: 0 18px;
+    }
+
+    footer {
+        display: none;
+    }
 }

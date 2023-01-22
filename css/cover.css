@@ -6,9 +6,10 @@
     padding-top: 194px;
 }
 
-.wrapper-cover {
+.cover-wrapper {
     position: relative;
     z-index: 1;
+    padding-left: 42px;
 }
 
 .cover-shading-layer {
@@ -41,4 +42,46 @@
     background: none;
     border: 1px solid #fff;
     padding: 19px 23px;
+}
+
+@media screen and (max-width: 1299px) {
+    .cover {
+        height: 476px;
+        padding-top: 85px;
+    }
+
+    .cover-wrapper {
+        padding-left: 0;
+        padding: 0 18px;
+    }
+
+    .cover-title-size {
+        font-size: 23px;
+        line-height: 31px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cover-text {
+        font-size: 14px;
+        line-height: 19px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cover-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .first-button-cover-paddings {
+        width: 338.61px;
+        margin: 52px 0 26px 0;
+    }
+
+    .second-button-cover {
+        margin: 0;
+        width: 338.61px;
+    }
 }

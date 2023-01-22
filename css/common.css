@@ -18,10 +18,6 @@ body * {
     margin: 0 auto;
 }
 
-.wrapper-left-padding {
-    padding-left: 42px;
-}
-
 .button {
     text-transform: uppercase;
     background-color: #E3B873;
@@ -47,6 +43,7 @@ body * {
     letter-spacing: -0.07em;
     text-transform: uppercase;
     color: #E3B873;
+    text-align: left;
 }
 
 .subtitle {
