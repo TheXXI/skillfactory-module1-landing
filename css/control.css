@@ -97,7 +97,8 @@
         font-size: 11px;
         line-height: 19px;
         color: #fff;
-        width: auto;
+        width: 100%;
+        max-width: 817px;
     }
 
     .control-form {
@@ -109,7 +110,7 @@
     .control-form div {
         align-self: center;
         width: 100%;
-        max-width: 600px;
+        max-width: 817px;
     }
 
     .control-form label {

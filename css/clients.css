@@ -127,3 +127,9 @@
     height: 505.43px;
     width: 50%;
 }
+
+@media screen and (max-width: 1299px) {
+    .clients {
+        display: none;
+    }
+}

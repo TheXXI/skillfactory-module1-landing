@@ -143,7 +143,7 @@
     margin: 0 18px;
 }
 
-.projects-image-block-navigation {
+.slider-block-navigation {
     display: none;
 }
 
@@ -202,7 +202,7 @@
         width: auto;
     }
 
-    .projects-image-block-navigation {
+    .slider-block-navigation {
         position: absolute;
         top: 0;
         left: 0;
@@ -219,7 +219,7 @@
         text-align: center;
     }
 
-    .projects-image-block-navigation-button {
+    .slider-block-navigation-button {
         background: none;
         border: 0
     }

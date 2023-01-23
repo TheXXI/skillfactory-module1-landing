@@ -126,9 +126,9 @@
                     </div>
                     <div class="projects-image-block">
                         <img class="projects-image" src="./images/project.png" alt="Completed project">
-                        <div class="projects-image-block-navigation">
-                            <button class="projects-image-block-navigation-button"><img src="./images/icons/left-arrow-ellipse.svg" alt="Left button"></button>
-                            <button class="projects-image-block-navigation-button"><img src="./images/icons/right-arrow-ellipse.svg" alt="Right button"></button>
+                        <div class="slider-block-navigation">
+                            <button class="slider-block-navigation-button"><img src="./images/icons/left-arrow-ellipse.svg" alt="Left button"></button>
+                            <button class="slider-block-navigation-button"><img src="./images/icons/right-arrow-ellipse.svg" alt="Right button"></button>
                         </div>
                     </div>
                     
@@ -309,11 +309,6 @@
             </div>
         </section>
 
-        <!--
-
-            ПОФИКСИТЬ ВЫСТОУ БЛОКОВ
-
-        -->
         <section class="fantasies">
 
             <div class="wrapper fantasies-content">
@@ -348,8 +343,21 @@
                 <div class="fantasies-shading-layer"></div>
             </div>
         </section>
-1
-        <!--<section class="clients">
+
+        <section class="fantasies_mobile">
+            <div class="wrapper">
+                <h1 class="title fantasies-title">We realize your<br>wildest fantasies</h1>
+                <div class="fantasies-slider">
+                    <img class="fantasies_mobile-main-image" src="./images/fantasies1.jpg" alt="Photo">
+                    <div class="slider-block-navigation">
+                        <button class="slider-block-navigation-button"><img src="./images/icons/left-arrow-ellipse.svg" alt="Left button"></button>
+                        <button class="slider-block-navigation-button"><img src="./images/icons/right-arrow-ellipse.svg" alt="Right button"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="clients">
             <h3 class="subtitle">our clients</h3>
             <div class="section-icons">
                 <img src="./images/icons/line.svg" alt="Line icon">
@@ -431,14 +439,15 @@
 
 
         <section class="questions">
+            <div class="wrapper">
             <h3 class="subtitle white-text questions-subtitle">have any questions?</h3>
             <div class="questions-inputs">
-                <div>
+                <div class="questions-input">
                     <label class="label black-label" for="name">Name</label>
                     <input class="input black-input" type="text" placeholder="What is your name:" id="name">
                 </div>
-                <div>
-                    <label class="label black-label" for="phone">Phone</label>href="#"
+                <div class="questions-input">
+                    <label class="label black-label" for="phone">Phone</label>
                     <input class="input black-input" type="text" placeholder="Your phone number:" id="phone">
                 </div>
             </div>
@@ -453,17 +462,18 @@
                 <span class="white-text">I agree to the processing of personal data</span>
             </label>
             <button class="questions-button">Submit</button>
+        </div>
         </section>
 
         <sections class="contacts">
-            <div class="contacts-content">
+            <div class="contacts-content wrapper">
                 <span class="contacts-text">Rostov-on-Don, Nansen St., 239 Shopping Center<br>Decorum Tel +7 (928) 768 32 29</span>
                 <div class="contacts-icons">
                     <a href="#"><img src="./images/icons/email.svg" alt="Email"></a>
                     <a href="#"><img src="./images/icons/instagram.svg" alt="Instagram"></a>
                 </div>
                 <div class="map">
-                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A9ae5a93020b610f93c46a2760ac20a6ca6c19bf4c14569e7f1c16d73fd3e73d2&amp;source=constructor" width="925" height="465" frameborder="0"></iframe>
+                    <iframe class="map-frame" src="https://yandex.ru/map-widget/v1/?um=constructor%3A9ae5a93020b610f93c46a2760ac20a6ca6c19bf4c14569e7f1c16d73fd3e73d2&amp;source=constructor" width="925" height="465" frameborder="0"></iframe>
                 </div>
             </div>
             <div class="contacts-shading-layer"></div>
@@ -489,7 +499,7 @@
                 Request a call
             </button>
         </div>
-    </footer>-->
+    </footer>
 </body>
 
 </html>

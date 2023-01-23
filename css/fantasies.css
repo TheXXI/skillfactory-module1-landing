@@ -1,7 +1,10 @@
 .fantasies {
     margin-top: 129.56px;
     height: 1017.86px;
-    background-color: red;
+}
+
+.fantasies_mobile {
+    display: none;
 }
 
 .fantasies-content {
@@ -92,4 +95,45 @@
     right: 0;
     bottom: 0;
     background: linear-gradient(109.8deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%);
+}
+
+@media screen and (max-width: 1299px) {
+    .fantasies {
+        
+        display: none;
+    }
+
+    .fantasies_mobile {
+        margin-top: 55px;
+        margin-bottom: -121px;
+        display: block;
+    }
+
+    .fantasies-title {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .fantasies-slider {
+        margin: 0 auto;
+        position: relative;
+        width: 340px;
+        height: 242px;
+    }
+
+    .fantasies_mobile-main-image {
+        object-fit: cover;
+        width: 340px;
+        height: 242px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .fantasies-slider {
+        width: 100%;
+    }
+    .fantasies_mobile-main-image {
+        width: 100%;
+    }
 }

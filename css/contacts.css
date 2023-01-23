@@ -49,3 +49,38 @@
     width: 925px;
     margin: 43.29px auto 0 auto;
 }
+
+@media screen and (max-width: 1299px) {
+    .contacts {
+        padding-top: 46px;
+        background: #131313;
+        height: auto;
+        padding: 0;
+    }
+    .contacts-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .map {
+        order: 1;
+        height: 255px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .map-frame {
+        position: absolute;
+        top:  50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .contacts-text {
+        margin: 41.79px 0 0 0;
+        order: 2;
+    }
+    .contacts-icons {
+        order: 3;
+        margin: 77px 0 49px 0;
+    }
+}
