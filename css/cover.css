@@ -4,6 +4,7 @@
     position: relative;
     z-index: 1;
     padding-top: 194px;
+    background-color: red;
 }
 
 .cover-wrapper {
@@ -33,7 +34,7 @@
     color: #fff;
 }
 
-.first-button-cover-paddings {
+.first-button-cover {
     padding: 19px 42px;
 }
 
@@ -75,7 +76,7 @@
         align-items: center;
     }
     
-    .first-button-cover-paddings {
+    .first-button-cover {
         width: 338.61px;
         margin: 52px 0 26px 0;
     }
@@ -83,5 +84,32 @@
     .second-button-cover {
         margin: 0;
         width: 338.61px;
+    }
+}
+
+/*
+@media screen and (max-width: 1299px) and (min-wigth: 351px){
+    .first-button-cover {
+        width: 338.61px;
+        margin: 52px 0 26px 0;
+    }
+
+    .second-button-cover {
+        margin: 0;
+        width: 338.61px;
+    }
+}
+*/
+
+@media screen and (max-width: 360px) {
+    .cover {
+        padding-top: 43px;
+    }
+    .first-button-cover {
+        width: 300px;
+        margin: 26px 0 13px 0;
+    }
+    .second-button-cover {
+        width: 300px;
     }
 }

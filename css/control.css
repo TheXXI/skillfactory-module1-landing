@@ -1,4 +1,4 @@
-.control-padding {
+.control-margin {
     margin-top: -324px;
 }
 
@@ -62,6 +62,7 @@
     margin-top: 91px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .control-form div:nth-of-type(2) {
@@ -69,6 +70,90 @@
 }
 
 .control-presonal-data-block {
+    width: 100%;
     margin-top: 37px;
     text-align: center;
 }
+
+@media screen and (max-width: 1299px) {
+    .control {
+        background-color: #131313;
+    }
+    .control-margin {
+        margin-top: 0;
+        padding-top: 58px;
+        
+    }
+    .video {
+        width: 100%;
+        max-width: 817px;
+    }
+
+    .control-hr {
+        margin: 28px auto 21.46px auto;
+    }
+
+    .control-text {
+        font-size: 11px;
+        line-height: 19px;
+        color: #fff;
+        width: auto;
+    }
+
+    .control-form {
+        margin-top: 61.05px;
+        width: auto;
+        flex-direction: column;
+    }
+
+    .control-form div {
+        align-self: center;
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .control-form label {
+        color: rgba(255, 255, 255, 0.5);
+        
+    }
+
+    .control-form input {
+        border-color: rgba(255, 255, 255, 0.15);
+        background-color: #131313;
+        width: 100%;
+        
+    }
+
+    .control-form input::placeholder {
+        color: #fff;
+    }
+
+    .control-form div:nth-of-type(2) {
+        margin: 63px 0 26.54px 0;
+    }
+
+    .control-presonal-data-block {
+        order: 3;
+    }
+    
+    .control-button{
+        order: 4;
+        width: 100%;
+        max-width: 340px;
+        height: 51px;
+        border-radius: 0;
+        margin: 62.43px 0 -25px 0;
+        align-self: center;
+    }
+    
+    .control-presonal-data-block span {
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 322px) {
+    .control-presonal-data-block span {
+        font-size: 13px;
+    }
+}
+
