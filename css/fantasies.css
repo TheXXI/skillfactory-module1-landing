@@ -1,6 +1,7 @@
 .fantasies {
     margin-top: 129.56px;
     height: 1017.86px;
+    background-color: red;
 }
 
 .fantasies-content {
@@ -65,13 +66,14 @@
     margin-right: 43px;
 }
 
-.fantasies-images-line:nth-of-type(1) img {
+.fantasies-image-one-margin-bottom {
     margin-bottom: 39.1px;
 }
 
-.fantasies-images-line:nth-of-type(2) img {
+.fantasies-image-three-margin-bottom {
     margin-bottom: 37px;
 }
+
 
 .fantasies-backgroung-image {
     margin-top: 112.53px;
