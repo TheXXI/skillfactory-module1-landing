@@ -115,6 +115,7 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     width: 408px;
     margin: 7px auto 2px auto;
+    color: white;
 }
 
 .request-input::placeholder {
