@@ -18,7 +18,7 @@
     list-style: none;
 }
 
-.projects-navigation_item a {
+.projects-navigation_item {
     text-decoration: none;
     background: none;
     border-radius: 0;
@@ -33,10 +33,14 @@
     margin-left: 60px;
 }
 
-.projects-navigation_item-active a {
-    color: #E3B873;
+.projects-navigation_item:first-child {
     padding: 0 2px 6px 2px;
     margin: 0;
+}
+
+.projects-navigation_item-active {
+    color: #E3B873;
+
     border-bottom: 1px solid #E3B873;
 }
 
