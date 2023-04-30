@@ -28,7 +28,7 @@ const areaElement = document.getElementById('projects-area');
 const timeElement = document.getElementById('projects-time');
 const costElement = document.getElementById('projects-cost');
 
-let activeSlide = 0;
+let activeSlideNum = 0;
 
 function changeSlide(slideNumber) {
     const slideData = projects[slideNumber];
@@ -42,17 +42,17 @@ function changeSlide(slideNumber) {
     addListItemActiveClass(slideNumber);
     setActivePoint(slideNumber);
 
-    console.log('activeSlide: ' + activeSlide + ' -> ' + slideNumber);
-    activeSlide = slideNumber;
+    console.log('activeSlide: ' + activeSlideNum + ' -> ' + slideNumber);
+    activeSlideNum = slideNumber;
 }
 
 function addListItemActiveClass (number) {
-    links[activeSlide].classList.remove("projects-navigation_item-active");
+    links[activeSlideNum].classList.remove("projects-navigation_item-active");
     links[number].classList.add("projects-navigation_item-active");
 }
 
 function setActivePoint(number) {
-    pointsButtons[activeSlide].firstChild.src="./images/icons/gray-point.svg";
+    pointsButtons[activeSlideNum].firstChild.src="./images/icons/gray-point.svg";
     pointsButtons[number].firstChild.src="./images/icons/white-point.svg";
 }
 
@@ -60,6 +60,20 @@ function setClickListener (array) {
     array.forEach((element, index) => {
         element.addEventListener('click', () => changeSlide(index));
     });
+}
+
+function setPrevSlide () {
+    let prevNum = activeSlideNum - 1;
+    if (prevNum < 0) prevNum = 2;
+    changeSlide(prevNum);
+    activeSlideNum = prevNum;
+}
+
+function setNextSlide () {
+    let nextNum = activeSlideNum + 1;
+    if (nextNum > 2) nextNum = 0;
+    changeSlide(nextNum);
+    activeSlideNum = nextNum;
 }
 
 const links = document.querySelectorAll('.projects-navigation_item');
@@ -74,10 +88,12 @@ const pointsButtons = [
 setClickListener(links);
 setClickListener(pointsButtons);
 
-console.log(buttons[0].innerHTML)
-console.log(buttons[4].innerHTML)
+buttons[0].addEventListener('click', setPrevSlide);
+buttons[4].addEventListener('click', setNextSlide);
 
-console.log('--')
-console.log(buttons[1].innerHTML)
-console.log(buttons[2].innerHTML)
-console.log(buttons[3].innerHTML)
+/* mobile */
+
+const mobileButtons = document.querySelectorAll('.slider-block-navigation-button');
+
+mobileButtons[0].addEventListener('click', setPrevSlide);
+mobileButtons[1].addEventListener('click', setNextSlide);
