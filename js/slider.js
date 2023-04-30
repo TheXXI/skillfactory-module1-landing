@@ -42,7 +42,6 @@ function changeSlide(slideNumber) {
     addListItemActiveClass(slideNumber);
     setActivePoint(slideNumber);
 
-    console.log('activeSlide: ' + activeSlideNum + ' -> ' + slideNumber);
     activeSlideNum = slideNumber;
 }
 
